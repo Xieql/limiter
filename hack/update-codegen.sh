@@ -4,8 +4,8 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-PKG_PATH=github.com/zirain/limiter/client-go
-APIS_PATH=github.com/zirain/limiter/api
+PKG_PATH=limiter/client-go
+APIS_PATH=limiter/api
 
 # For all commands, the working directory is the parent directory(repo root).
 REPO_ROOT=$(git rev-parse --show-toplevel)
